@@ -1,0 +1,39 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 2rem;
+  background: #f8f8f8;
+}
+
+input[type="file"] {
+  margin: 1rem auto;
+}
+
+.controls {
+  margin: 1rem auto;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+canvas {
+  border: 1px solid #ccc;
+  margin: 1rem 0;
+  max-width: 90%;
+  height: auto;
+}
+
+button {
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  background-color: #008cff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005fcc;
+}

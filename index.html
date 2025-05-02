@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>画像リサイズツール</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>画像リサイズツール</h1>
+
+  <input type="file" id="upload" accept="image/*">
+  
+  <div class="controls">
+    <label>幅（px）: <input type="number" id="width" value="300"></label>
+    <label>高さ（px）: <input type="number" id="height" value="300"></label>
+    <label><input type="checkbox" id="keepRatio" checked> 縦横比を固定</label>
+  </div>
+
+  <canvas id="canvas"></canvas>
+
+  <button id="download">ダウンロード</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
